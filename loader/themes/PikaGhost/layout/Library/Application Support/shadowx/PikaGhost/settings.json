@@ -1,0 +1,61 @@
+[
+    ["header","image", "----", "----", "image", "/Library/Application Support/shadowx/default/header.png"],
+    
+    ["shadow additions", "callconfirm", "Confirm Calls", "Show a confirmation dialog before making calls.", "switch", "true"],
+    ["shadow additions", "showbanners", "Show Banners", "Enable banners \"Notifications\" for some interactions (saving, marking as seen).", "switch", "false"],
+    ["shadow additions", "nativeui", "No Buttons", "Integrate save and seen options into Snapchat action menu, instead of showing overlay buttons.", "switch", "false"],
+    ["shadow additions", "savehax", "Keep Sent Snaps", "Sent snaps will be shown only in your side of the chat, so you may know what snaps you've sent.", "switch", "false"],
+    ["shadow additions", "closeseen", "Skip on Seen", "Skip to the next snap when marked as seen. Alternatively, pressing the button again will mark as unseen.", "switch", "true"],
+    ["shadow additions", "markfriends", "Stories Auto-Seen", "Automatically mark all non-friends stories as seen.", "switch", "false"],
+    
+    ["recording", "screenshotconfirm", "Screenshot Confirm", "Show a confirmation dialog for sending screenshots notification.", "switch", "true"],
+    ["recording", "screenrecord", "Screen Record Supression", "Suppress screen recording notifications.", "switch", "true"],
+    ["recording", "screenshot", "Screenshot Supression", "Suppress screenshot notifications.", "switch", "false"],
+    
+    ["shadow buttons", "upload", "Upload Button", "Show an overlay button to upload media from Camera Roll.", "switch", "true"],
+    ["shadow buttons", "seenbutton", "Seen Button", "Show an overlay button to mark snaps and stories as seen.", "switch", "true"],
+    ["shadow buttons", "savebutton", "Save Button", "Show an overlay button to save media.", "switch", "true"],
+    ["shadow buttons", "screenshotbtn", "Screenshot Button", "Show an overlay button to send screenshot notification.", "switch", "false"],
+    ["shadow buttons", "scspambtn", "Screenshot Spam", "Show a button in chat to rapidly send screenshot notifications as a PRANK.", "switch", "false"],
+    
+    ["shadow experiments", "noads", "Disable Ads", "Block all Snapchat advertisements.", "switch", "true"],
+    ["shadow experiments", "sctesting", "Enable Experiments", "Enable all snapchat experiments (like UI stuff)", "switch", "false"],
+    ["shadow experiments", "lockbuttons", "Lock Buttons", "Lock the position of the buttons and disable movement.", "switch", "true"],
+    ["shadow experiments", "resetlayout", "Reset Button Layout", "Restore button positions to default configuration.", "button", "RESTORE"],
+    ["shadow experiments", "keepchat", "Ignore deleted chats", "Stop chats from being deleted (only works while chat is open).", "switch", "true"],
+    ["shadow experiments", "saveaudio", "Save Voice Messages", "Show a confirmation dialog to save a voice-message to a folder (must listen to the whole voice-message first).", "switch", "true"],
+    ["shadow experiments", "wraithuploads", "Long Uploads", "Upload videos longer than 10sec as one snap (Must take a quick video snap after choosing a video).", "switch", "false"],
+    
+    ["spoof", "location", "Spoof Location", "Use the location selector below to change location.", "switch", "false"],
+    ["spoof", "picklocation", "Pick Location", "Choose the location from the map (Requires enabling \"Spoof Location\").", "button", "PICK"],
+    ["spoof", "teleport", "Teleport to Friends", "Tap a friend on the SnapMap to teleport to them.", "switch", "false"],
+    ["spoof", "spoofviews","Spoof Story Views", "Enter a number to spoof story views (Leave blank to disable).","text",""],
+    ["spoof", "spoofsc","Spoof Story Screenshots", "Enter a number to spoof story screenshots (Leave blank to disable).","text",""],
+    
+    ["snapchat interface", "nomapswiping", "No Map Swipe", "Disable swiping to SnapMap.", "switch", "false"],
+    ["snapchat interface", "openurl", "Open Link Default", "Open links in chat using safari.", "switch", "false"],
+    ["snapchat interface", "hidenewchat", "Hide New Chat Button", "Hide the blue button on the bottom on recent UI versions.", "switch", "true"],
+    ["snapchat interface", "highlights", "Hide Highlights", "Removes the stupid TikTok knock-off tab (Requires app restart).", "switch", "false"],
+    ["snapchat interface", "discover", "Hide Discover", "Removes the Discover stories section.", "switch", "false"],
+    ["snapchat interface", "quickadd", "Hide Quick Add", "Removes the Quick Add section from the chat page.", "switch", "false"],
+    ["snapchat interface", "cellswipe", "Chat Swipe", "Swipe on any part of the chat to open it.", "switch", "false"],
+    ["snapchat interface", "friendmoji", "Hide Friendmoji", "Hide the \"Friendmojis\" in chat page (Not Bitmoji. Requires pull to refresh).", "switch", "false"],
+    ["snapchat interface", "scramble", "Randomize Best Friends", "Randomly change the order of the best friends list.", "switch", "false"],
+    ["snapchat interface", "looping", "Loop Media", "Content will loop rather than skip to the next.", "switch", "false"],
+    ["snapchat interface", "eastereggs", "Pull to Refresh", "Customize pull to refresh theme.", "switch", "true"],
+    ["snapchat interface", "pinnedchats","Chat Pins", "Enter a number for the chat pin limit.","text","3"],
+
+    ["shadow interface", "buttonsize", "Button Size", "Size of all buttons", "text", "40"],
+    ["shadow interface", "darkmode", "Dark Mode", "Use dark mode in this settings menu.", "switch", "true"],
+    ["shadow interface", "hidetitle", "Hide Title", "Hide title and subtitle from the main pages (Requires app restart).", "switch", "false"],
+    ["shadow interface", "subtitle", "Hide Subtitle", "Hide the subtitle containing an MOTD or something from the devs.","switch","false"],
+    ["shadow interface", "customtitle","Custom Title", "Leave blank to use default.","text",""],
+    ["shadow interface", "rgb", "Cool RGB Animation", "Gives the Iota header RBG (ChromaHomeBarX Style).", "switch", "true"],
+    ["shadow interface", "theme", "Iota Theme", "Pick a theme for Iota's buttons, pull to refresh, and settings.", "button", "SELECT"],
+
+    ["actions", "debug", "Open Log", "Opens a log window for debugging.", "button", "DEBUG"],
+    ["actions", "managesettings", "Manage Settings", "Import and export settings configurations", "button", "MANAGE"],
+    ["actions", "reset", "Reset All Settings", "Requires closing and opening Snapchat.", "button","RESET"],
+
+    ["", "", "", "", "", ""]
+]

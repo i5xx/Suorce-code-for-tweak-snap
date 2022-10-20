@@ -1,0 +1,8 @@
+Package: com.kanji.pikaghost
+Name: PikaGhost
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Pikachu theme for relicloader
+Maintainer: Kanji
+Author: Kanji
+Section: Themes
